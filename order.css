@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+body {
+background-color: #f3f4f6;
+}
+header {
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+}
+main {
+  margin-left: 20px ;
+  margin-right: 10px;
+}
+.navbar {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3f4f6;
+  }
+  
+  .navbar .logo h1 {
+    color: black;
+    font-size: 30px;
+  }
+  
+  .navbar .menu li {
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .navbar .menu li a {
+    display: block;
+    margin-left: 30px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+
+
+.logo-icon {
+    width: 30px;
+    padding: 5px;
+}
+.menu-icon {
+    width: 30px;
+    list-style: none;
+    padding: 10px;
+  }
+  li {
+    list-style: decimal;
+  }
+
+p{
+    padding-bottom: 2px;
+}
+
+strong {
+    padding: 5px;
+}
+h2 {
+    padding: 5px;
+    border-bottom: 3px solid black;
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+.last {
+  padding-bottom: 20px;
+  margin-left: 20px ;
+  margin-right: 10px;
+}
+footer {
+  background-color: rgba(255, 0, 0, 0.89);
+  color: white;
+  height: 11vh;
+}
+footer p {
+  text-align: center;
+  line-height: 5vh;
+}
+footer p a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+ }
