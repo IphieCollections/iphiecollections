@@ -331,13 +331,13 @@ footer p a {
   }
   
   .products .card .desc {
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px 20px;
     opacity: 0.9;
   }
   
   .products .card .desc-2 {
-    font-size: 9px;
+    font-size: 12px;
     padding-left: 20px;
     padding-top: 3px;
     opacity: 0.8;
@@ -345,7 +345,7 @@ footer p a {
   
   .products .card .title {
     font-weight: bold;
-    font-size: 12px;
+    font-size: 15px;
     color: black;
     padding: 0 15px;
   }
@@ -391,7 +391,7 @@ footer p a {
   .navbar .logo h1 {
     display: flex;
     color: black;
-    font-size: 20px;
+    font-size: 25px;
   }
   .navbar .menu li {
     list-style: none;
@@ -403,59 +403,59 @@ footer p a {
     color: black;
     text-decoration: none;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 18px;
   }
   
   .menu-icon {
-    width: 15px;
+    width: 18px;
   }
   .logo-icon {
     display: flex;
-    width: 25px;
+    width: 0px;
   }
 
   .content {
     background-image: url(img/charlesdeluvio-FK81rxilUXg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 1.5%;
+    padding: 2.5%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     color: black;
-    height: 100vh;
+    height: 70vh;
   }
   
   .content h1 {
-    font-size: 25px;
+    font-size: 30px;
   }
   
   .content p {
-    font-size: 15px;
+    font-size: 20px;
     margin-top: 5px;
     margin-bottom: -5px;
   }
 
   small {
-    font-size: 10px;
+    font-size: 15px;
   }
   
   .content button {
     margin-top: 10px;
     margin-bottom: 2px;
-    padding: 10px 10px;
+    padding: 15px 15px;
     border: none;
-    background: rgba(255, 0, 0, 0.76);
+    background: rgb(255, 0, 0);
     color: white;
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .sec h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 20px;
     margin-top: 5px;
     color: black;
@@ -467,41 +467,56 @@ footer p a {
     display: block;
     margin-left: 10px;
     color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 17px;
   }
   .menu-icon-2 {
-    width: 18px;
+    width: 25px;
     padding: 5px;
   }
 
   /*about*/
+
+  #main {
+    background-color: #f3f4f6;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0)
+      ),
+      url(img/paper-made-shopping-bags.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .main-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: 50px auto;
   }
   .main-text {
-    max-width: 250px;
+    max-width: 350px;
   }
   .main-text span {
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     color: red;
     letter-spacing: 2px;
   }
   .main-text h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     line-height: 35px;
   }
   .main-text p {
     color: rgb(24, 22, 22);
     margin: 15px 0px;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
   }
 }
