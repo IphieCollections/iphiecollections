@@ -12,9 +12,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+header h1 {
+  color: black;
+}
 main {
-  margin-left: 20px ;
-  margin-right: 10px;
+  margin-left: 18px ;
+  margin-right: 12px;
 }
 .navbar {
     padding-top: 5px;
@@ -24,10 +27,6 @@ main {
     background-color: #f3f4f6;
   }
   
-  .navbar .logo h1 {
-    color: black;
-    font-size: 30px;
-  }
   
   .navbar .menu li {
     list-style: none;
@@ -38,9 +37,6 @@ main {
     display: block;
     margin-left: 30px;
     color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 17px;
   }
 
 
@@ -60,14 +56,22 @@ main {
 
 p{
     padding-bottom: 2px;
+    font-size: 18px;
 }
 
 strong {
     padding: 5px;
+    color: rgba(255, 0, 0, 0.753);
 }
 h2 {
+  color: black;
     padding: 5px;
     border-bottom: 3px solid black;
+}
+h3 {
+  font-size: 35px;
+  padding-bottom: 15px;
+  color: rgba(255, 0, 0, 0.808);
 }
 a {
     text-decoration: none;
@@ -81,11 +85,11 @@ a {
 footer {
   background-color: rgba(255, 0, 0, 0.89);
   color: white;
-  height: 11vh;
+  height: 9vh;
 }
 footer p {
   text-align: center;
-  line-height: 5vh;
+  line-height: 4.2vh;
 }
 footer p a {
   text-decoration: none;

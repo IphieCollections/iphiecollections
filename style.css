@@ -95,7 +95,7 @@ a {
   border: none;
   background: rgba(255, 0, 0, 0.726);
   color: white;
-  border-radius: 10px;
+  border-radius: 50px;
   cursor: pointer;
   font-size: 18px;
 }
@@ -188,11 +188,11 @@ small {
 footer {
   background-color: rgba(255, 0, 0, 0.89);
   color: white;
-  height: 11vh;
+  height: 10vh;
 }
 footer p {
   text-align: center;
-  line-height: 5vh;
+  line-height: 4.5vh;
 }
 footer p a {
   text-decoration: none;
@@ -257,15 +257,14 @@ footer p a {
 .navbar-2 .menu li {
   list-style: none;
   display: inline-block;
+  margin-left: -40px;
+  padding: 20px;
+  padding-left: 40px;
 }
 
 .navbar-2 .menu li a {
   display: block;
-  margin-left: 30px;
   color: black;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 17px;
 }
 
 .navbar-2 .menu li a img:hover {
@@ -280,8 +279,8 @@ footer p a {
 }
 
 .menu-icon-2 {
-  width: 25px;
-  padding: 5px;
+  width: 30px;
+  padding: 8px;
 }
 .store {
   padding-top: 5px;
@@ -302,17 +301,21 @@ footer p a {
 
 .navbar-3 .menu li a {
   display: block;
-  margin-left: 30px;
+  margin-left: 25px;
   color: black;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 17px;
 }
 
 .menu-icon-3 {
-  width: 10px;
+  width: 8px;
   padding: 10px;
 }
+
+.menu-icon-4 {
+  width: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
 /*phone*/
 
 @media (max-width:500px) {
@@ -368,7 +371,7 @@ footer p a {
     margin-left: 10px;
     border: 1px solid black;
     border-radius: 20px;
-    background-color: rgba(255, 0, 0, 0.568);
+    background-color: rgba(255, 0, 0, 0.877);
     font-weight: bold;
   }
   .products {
